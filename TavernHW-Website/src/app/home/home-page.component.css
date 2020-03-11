@@ -1,0 +1,52 @@
+/* HOME PAGE */
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    margin: auto;
+    width: 25%;
+    padding: 10px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+/* PAGE CONTENT */
+body {
+    clear: both;
+}
+.content-border {
+    border: thin black solid;
+}
+
+.home-content {
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    text-align: center;
+    border: thin black solid;
+    font-size: medium;
+}
+
+.home-content a {
+    padding: 10px;
+    text-align: center;
+}
+
+.home-content #left {
+    float: left;
+    width: 40%;
+    margin-right: 5%;
+}
+
+.home-content #right {
+    float: right;
+    width: 40%;
+    margin-left: 5%;
+}
+

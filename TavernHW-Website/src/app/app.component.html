@@ -1,0 +1,27 @@
+<mat-drawer-container class="sidenav-container" autosize>
+    <mat-drawer #drawer class="sidenav" mode="side">
+        <div class="navlinks">
+            <a routerLink="/home"><img src="https://img.icons8.com/ios-filled/24/000000/home.png"> Home</a>
+            
+            <a routerLink="/about"><img src="https://img.icons8.com/android/24/000000/high-importance.png"> About</a>
+            
+            <a routerLink="/services"><img src="https://img.icons8.com/ios-filled/24/000000/gears.png"> Services</a>
+        </div>  
+    </mat-drawer>
+
+    <div class="sidenav-content">
+        <div class="topbar">
+            <button type="button" mat-button (click)="drawer.toggle()">
+                &#9776;
+            </button>
+            <div class="social-media" style="display: inline-flex">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+            </div>
+        </div>
+    </div>
+    <div class="page-content">
+        <router-outlet></router-outlet>
+    </div>
+</mat-drawer-container>

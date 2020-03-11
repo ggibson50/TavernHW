@@ -1,0 +1,14 @@
+header {
+    text-align: center;
+}
+
+.row .col-sm {
+    width: 29.5%;
+    display: inline-block;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
